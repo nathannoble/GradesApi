@@ -1,0 +1,5 @@
+serverless deploy -v
+
+Deploys to dev but can be overriden:
+serverless deploy --stage $STAGE_NAME
+    where $STAGE_NAME can be prod, etc.
